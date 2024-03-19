@@ -1,0 +1,6 @@
+<ul>
+    @for (item of getTodoItems(); track item.id){
+        <app-todo-list-item [todoItem]=item></app-todo-list-item>
+    }
+    
+</ul>
